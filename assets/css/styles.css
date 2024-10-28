@@ -1,0 +1,54 @@
+body {
+  border: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  background-color: black;
+  justify-content: center;
+  color: white;
+  padding-bottom: 46px;
+}
+h1 {
+  text-align: center;
+  border-top: 1px solid green;
+  border-bottom: 1px solid green;
+  padding: 20px;
+}
+.title {
+  background-color: black;
+}
+
+.spaceUnder {
+  margin-top: 10px;
+}
+
+.boxDesign {
+  padding: 10px;
+  text-align: center;
+  border-radius: 10px;
+}
+button {
+  background-color: rgb(74, 188, 227);
+  color: white;
+  font-weight: bold;
+}
+#result {
+  margin-top: 30px;
+  background-color: white;
+  width: 80%;
+}
+
+.boxSize {
+  background-color: darkgray;
+  text-align: center;
+  display: flex;
+  padding: 30px;
+  flex-direction: column;
+  border-radius: 10px;
+  width: 300px;
+}
